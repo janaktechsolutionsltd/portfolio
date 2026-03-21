@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janak Tech Solutions Ltd</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <a href="#" class="logo">JanakTech<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact" class="btn btn-outline">Contact Us</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 1. Hero Section -->
+    <section class="hero" id="home">
+        <!-- Background Slider Container -->
+        <div class="slider">
+            <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2000&auto=format&fit=crop');"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2000&auto=format&fit=crop');"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2000&auto=format&fit=crop');"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        
+        <div class="container hero-content text-center">
+            <p class="hero-subtitle reveal-up">Welcome to the Future</p>
+            <h1 class="hero-title reveal-up" style="transition-delay: 0.1s;">Janak Tech Solutions Ltd</h1>
+            <p class="hero-tagline reveal-up" style="transition-delay: 0.2s;">Innovative Software Solutions for the Future</p>
+            <div class="hero-buttons reveal-up" style="transition-delay: 0.3s;">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- 2. About the CEO & 3. Company Overview -->
+    <section class="about section" id="about">
+        <!-- Floating neon orbs -->
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+
+        <div class="container">
+            <div class="about-grid">
+                <!-- CEO Section -->
+                <div class="ceo-card reveal-left">
+                    <div class="ceo-image-wrapper">
+                          <a href="https://ibb.co/RTcn4xTT"><img src="https://i.ibb.co/zVZcHyVV/IMG-5362.jpg" alt="IMG 5362" border="0"></a>
+                        <div class="neon-border-box"></div>
+                    </div>
+                    <div class="ceo-info">
+                        <h3>Janak Bhandari</h3>
+                        <span class="position text-neon">Founder & CEO</span>
+                        <p class="bio">"Technology is not just about writing code; it's about engineering the future and solving complex global problems through innovation. At Janak Tech, we build systems that empower humanity."</p>
+                    </div>
+                </div>
+
+                <!-- Company Overview Section -->
+                <div class="overview-content reveal-right">
+                    <div class="section-title">
+                        <span class="subtitle text-neon">Company Overview</span>
+                        <h2>Pioneering the Digital Frontier</h2>
+                    </div>
+                    <p>Janak Tech Solutions Ltd is a premier multinational software engineering firm. We specialize in developing state-of-the-art architectures, transforming domestic businesses, and partnering with international tech giants.</p>
+                    
+                    <div class="mission-vision">
+                        <div class="mv-box">
+                            <i class="fas fa-rocket text-neon"></i>
+                            <div>
+                                <h4>Mission</h4>
+                                <p>To accelerate global digital transformation.</p>
+                            </div>
+                        </div>
+                        <div class="mv-box">
+                            <i class="fas fa-eye text-neon"></i>
+                            <div>
+                                <h4>Vision</h4>
+                                <p>To be the world's most innovative tech core.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stats-grid mt-4">
+                        <div class="stat-box">
+                            <h3 class="counter" data-target="12">0</h3><span>+</span>
+                            <p>Global Employees</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3 class="counter" data-target="12">0</h3><span>+</span>
+                            <p>Foreign Clients</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3 class="counter" data-target="10">0</h3><span>+</span>
+                            <p>Domestic Clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Services Section -->
+    <section class="services section bg-darker" id="services">
+        <div class="container">
+            <div class="section-title text-center reveal-up">
+                <span class="subtitle text-neon">What We Do</span>
+                <h2>Our Core Services</h2>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card reveal-up" style="transition-delay: 0.1s;">
+                    <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Software Development</h3>
+                    <p>Custom enterprise software tailored for scalability and performance.</p>
+                    <div class="hover-glow"></div>
+                </div>
+                <div class="service-card reveal-up" style="transition-delay: 0.2s;">
+                    <div class="service-icon"><i class="fas fa-globe"></i></div>
+                    <h3>Web Development</h3>
+                    <p>High-performance, secure, and dynamic web applications.</p>
+                    <div class="hover-glow"></div>
+                </div>
+                <div class="service-card reveal-up" style="transition-delay: 0.3s;">
+                    <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Mobile App Dev</h3>
+                    <p>Native & cross-platform iOS and Android applications.</p>
+                    <div class="hover-glow"></div>
+                </div>
+                <div class="service-card reveal-up" style="transition-delay: 0.4s;">
+                    <div class="service-icon"><i class="fas fa-brain"></i></div>
+                    <h3>AI Solutions</h3>
+                    <p>Machine learning models and intelligent automation.</p>
+                    <div class="hover-glow"></div>
+                </div>
+                <div class="service-card reveal-up" style="transition-delay: 0.5s;">
+                    <div class="service-icon"><i class="fas fa-cloud"></i></div>
+                    <h3>Cloud Systems</h3>
+                    <p>Scalable cloud infrastructure (AWS, GCP, Azure).</p>
+                    <div class="hover-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Projects Section -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <div class="section-title text-center reveal-up">
+                <span class="subtitle text-neon">Our Portfolio</span>
+                <h2>Featured Projects</h2>
+            </div>
+            
+            <div class="project-tabs reveal-up">
+                <button class="tab-btn active" data-target="completed-projects">Completed Projects</button>
+                <button class="tab-btn" data-target="upcoming-projects">Upcoming Projects</button>
+            </div>
+
+            <div class="project-content">
+                <!-- Completed Projects Tab -->
+                <div class="project-grid tab-content active" id="completed-projects">
+                    <div class="project-card reveal-up">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="Fintech Dashboard">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-primary"><i class="fas fa-link"></i> View</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Nexus Pay System</h3>
+                            <p>A high-frequency trading platform built for global banking institutions.</p>
+                            <div class="tech-stack">
+                                <span>React</span><span>Node.js</span><span>AWS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card reveal-up" style="transition-delay: 0.1s;">
+                        <div class="project-img">
+                            <a href="https://ibb.co/6Rv6mfX7"><img src="https://i.ibb.co/MD8qs3Bx/IMG-6728.jpg" alt="IMG-6728" border="0"></a>
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-primary"><i class="fas fa-link"></i> View</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>OmniCart AI</h3>
+                            <p>An AI-driven product recommendation engine for massive e-commerce networks.</p>
+                            <div class="tech-stack">
+                                <span>Python</span><span>TensorFlow</span><span>Vue</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Upcoming Projects Tab -->
+                <div class="project-grid tab-content" id="upcoming-projects">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80" alt="Quantum System">
+                            <div class="project-status">In Development</div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Quantum Grid OS</h3>
+                            <p>A distributed operating system aimed at bridging quantum and classical computing nodes.</p>
+                            <div class="tech-stack">
+                                <span>C++</span><span>Rust</span><span>Qiskit</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Team Section -->
+    <section class="team section bg-darker" id="team">
+        <div class="container">
+            <div class="section-title text-center reveal-up">
+                <span class="subtitle text-neon">Our Minds</span>
+                <h2>Senior Employees</h2>
+            </div>
+            
+            <div class="team-grid">
+                <div class="team-card reveal-up">
+                    <div class="team-img">
+                     <a href="https://ibb.co/7xq9Jc7s"><img src="https://i.ibb.co/SDzLXTqF/IMG-6729.jpg" alt="IMG 6729" border="0"></a>
+
+
+
+                    </div>
+                    <div class="team-info">
+                        <h3>Ramesh Saud</h3>
+                        <span class="position text-neon">Chief Technology Officer</span>
+                        <p>15+ years experience in distributed systems and AI architecture.</p>
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-card reveal-up" style="transition-delay: 0.1s;">
+                    <div class="team-img">
+                        <a href="https://imgbb.com/"><img src="https://i.ibb.co/vxXrB5Km/IMG-6731.jpg" alt="IMG 6731" border="0"></a> 
+
+
+
+
+
+                    </div>
+                    <div class="team-info">
+                        <h3>Bibek Oli</h3>
+                        <span class="position text-neon">Lead Cloud Architect</span>
+                        <p>Specializes in multi-cloud infrastructure and high-availability operations.</p>
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-card reveal-up" style="transition-delay: 0.2s;">
+                    <div class="team-img">
+                        <img src="https://i.ibb.co/nMbfLCm2/IMG-6726.jpg" alt="Employee">
+                        <a href="https://ibb.co/5h6vRF4D"><img src="https://i.ibb.co/nMbfLCm2/IMG-6726.jpg" alt="IMG 6726" border="0"></a>
+                    </div>
+                    <div class="team-info">
+                        <h3>Bishal Gautam</h3>
+                        <span class="position text-neon">Head of AI Research</span>
+                        <p>Pioneering predictive ML models for enterprise-level deployment.</p>
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Company Collaboration -->
+    <section class="partners section mask-bg" id="partners">
+        <div class="container reveal-up">
+            <div class="section-title text-center">
+                <span class="subtitle text-neon">Global Network</span>
+                <h2>Company Collaborations</h2>
+            </div>
+            <p class="text-center" style="max-width: 600px; margin: 0 auto 40px;">Proudly partnering with international tech giants and domestic market leaders to deliver unprecedented solutions.</p>
+            
+            <div class="partners-grid">
+                <div class="partner-logo"><i class="fab fa-aws fa-3x"></i><span>AWS Partner</span></div>
+                <div class="partner-logo"><i class="fab fa-google fa-3x"></i><span>Google Cloud</span></div>
+                <div class="partner-logo"><i class="fab fa-microsoft fa-3x"></i><span>Microsoft Tech</span></div>
+                <div class="partner-logo"><i class="fab fa-react fa-3x"></i><span>React Ecosystem</span></div>
+                <div class="partner-logo"><i class="fas fa-network-wired fa-3x"></i><span>Cisco Systems</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Customer Reviews -->
+    <section class="reviews section" id="reviews">
+        <div class="container">
+            <div class="section-title text-center reveal-up">
+                <span class="subtitle text-neon">Testimonials</span>
+                <h2>Customer Reviews</h2>
+            </div>
+            
+            <div class="reviews-slider reveal-up">
+                <div class="review-track">
+                    <!-- Top 5 Reviews -->
+                    <div class="review-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p>"Janak Tech completely transformed our banking infrastructure. Their cloud security solutions are unmatched. A brilliantly competent team."</p>
+                        <h4>- Global Finance Inc.</h4>
+                    </div>
+                    <div class="review-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+                        <p>"The AI module they developed for our supply chain reduced latency by 40%. The ROI we saw within 6 months was phenomenal."</p>
+                        <h4>- Logistics Pro</h4>
+                    </div>
+                    <div class="review-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p>"Highly professional. The web applications are highly scalable and their mobile apps are flawless. Truly a world-class IT partner."</p>
+                        <h4>- Startup Nexus</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Company Policies -->
+    <section class="policies section bg-darker" id="policies">
+        <div class="container">
+            <div class="policies-grid">
+                <div class="policy-box reveal-left">
+                    <i class="fas fa-user-shield policy-icon"></i>
+                    <h2>Employee Policy</h2>
+                    <ul class="policy-list">
+                        <li><i class="fas fa-check text-neon"></i> Flexible working hours & remote-first culture.</li>
+                        <li><i class="fas fa-check text-neon"></i> Continuous learning & certification sponsorships.</li>
+                        <li><i class="fas fa-check text-neon"></i> Health, wellness, and family support benefits.</li>
+                        <li><i class="fas fa-check text-neon"></i> Equal opportunity and strict anti-harassment code.</li>
+                    </ul>
+                </div>
+                <div class="policy-box reveal-right">
+                    <i class="fas fa-file-contract policy-icon"></i>
+                    <h2>Customer Policy</h2>
+                    <ul class="policy-list">
+                        <li><i class="fas fa-check text-neon"></i> Strict Non-Disclosure Agreement (NDA) compliance.</li>
+                        <li><i class="fas fa-check text-neon"></i> 100% Data privacy and localized server routing.</li>
+                        <li><i class="fas fa-check text-neon"></i> 24/7 technical support and maintenance periods.</li>
+                        <li><i class="fas fa-check text-neon"></i> Transparent pricing and agile delivery sprints.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. Inquiry Form & 11/12. Contact/Social -->
+    <section class="contact section" id="contact">
+        <!-- Floating neon orbs -->
+        <div class="orb orb-3"></div>
+
+        <div class="container">
+            <div class="section-title text-center reveal-up">
+                <span class="subtitle text-neon">Let's Connect</span>
+                <h2>Initiate Protocol</h2>
+            </div>
+            
+            <div class="contact-grid">
+                <!-- Contact Details & Social -->
+                <div class="contact-info reveal-left">
+                    <h3>Headquarters Overview</h3>
+                    <p>Connect with our dedicated support nexus regarding new projects, tech architectures, or corporate queries.</p>
+                    
+                    <ul class="info-list">
+                        <li><i class="fas fa-envelope text-neon"></i> janaktechsolutions@gmail.com</li>
+                        <li><i class="fas fa-phone-alt text-neon"></i> +977 9707581175</li>
+                        <li><i class="fas fa-map-marker-alt text-neon"></i> Lamki Chuha Nagarpalika 1 Biddhut Line Road Kailali-Nepal 10901</li>
+                    </ul>
+                    
+                    <div class="mt-4">
+                        <a href="https://wa.me/9779707581175?text=Hello%20I%20want%20info" target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Direct WhatsApp Channel</a>
+                    </div>
+                    
+                    
+                </div>
+
+                <!-- Inquiry Form (WhatsApp API) -->
+                <div class="form-container reveal-right">
+                    <h3>Inquiry Form</h3>
+                    <p class="mb-4 text-light">Submit details securely over our WhatsApp terminal interface.</p>
+                    
+                    <form id="whatsappForm">
+                        <div class="form-group row">
+                            <div class="col">
+                                <label>Full Name</label>
+                                <input type="text" id="name" required placeholder="John Doe">
+                            </div>
+                            <div class="col">
+                                <label>Phone Number</label>
+                                <input type="tel" id="phone" required placeholder="+1 234 567 8900">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Secure Email</label>
+                            <input type="janaktechsolutions@gmail.com" id="email" required placeholder="john@company.com">
+                        </div>
+                        <div class="form-group">
+                            <label>Transmission Message</label>
+                            <textarea id="message" rows="5" required placeholder="Describe the software solution you require..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Transmit Data <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 13. Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h2>JanakTech<span>.</span></h2>
+                    <p>Innovative Software Solutions for the Future.</p>
+                    <div class="social-mini mt-3">
+                        <a href="https://www.linkedin.com/company/janak-tech-solutions-ltd"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/janaktechsolutionsltd"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/janaktechsolutions"><i class="fab fa-instagram"></i></a>
+                        <a href="https://x.com/JanakTechSols"><i class="fab fa-twitter"></i></a>
+                        <a href=" https://www.facebook.com/janaktechsolutions/"><i class="fab fa-facebook"></i></a>
+                        <a href=" https://www.youtube.com/@janaktechsolutions"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About CEO</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Portfolio</a></li>
+                        <li><a href="#team">Team</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Legal & Policies</h4>
+                    <ul>
+                        <li><a href="#policies">Employee Policy</a></li>
+                        <li><a href="#policies">Customer Policy</a></li>
+                        <li><a href="#">Privacy Agreement</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom text-center mt-5 pt-4" style="border-top: 1px solid rgba(255,255,255,0.05);">
+                <p>&copy; 2026 Janak Tech Solutions Ltd. All Rights Reserved. Engineered Globally.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
